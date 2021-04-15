@@ -1,9 +1,10 @@
 # Set up PostgreSQL Locally
 
 In this off-platform project, you will work on creating a database using PostgreSQL on your own computer. Before you get started, make sure you have gone through the necessary setup steps found in our article about setting up PostgreSQL locally. You will need to set up a PostgreSQL server as well as a client to connect to your server. As described in the article linked above, we recommend using Postbird for your client.
-Download the Data and Instructions
 
-# Download the instructions, starting files, and solution code to the project. The instructions are listed below, but it may be useful to download the instructions so you can work on this project while offline.
+# Download the Data and Instructions
+
+Download the instructions, starting files, and solution code to the project. The instructions are listed below, but it may be useful to download the instructions so you can work on this project while offline.
 
 There may be some files included in the project to help you get started. The instructions should explain how to use those files.
 
@@ -13,20 +14,22 @@ Finally, we have also included solution code to help guide you if you get stuck.
 
 Before we get started, it’s important to discuss how running SQL on your own machine is slightly different than running SQL on Codecademy’s website. Consider an exercise on Codecademy that has two steps. The first step asks you to create a table, and the second step asks you to add a row to that table. To pass the first step, you might write something like this and then click run:
 
-> CREATE TABLE students (
->    name TEXT, 
->    age INTEGER
-> );
+    CREATE TABLE students (
+    name TEXT, 
+    age INTEGER
+    );
 
 Then to pass the second step, you would add on to your file and hit run again, like so:
 
-CREATE TABLE students (
+```CREATE TABLE students (
    name TEXT, 
    age INTEGER
-);
+);```
  
+```
 INSERT INTO students (name, age) 
 VALUES ('Zack Morris', 18);
+```
 
 Notice that technically you’ve now run the CREATE TABLE line twice — once the first time you hit the run button, and again when you hit the run button to pass the second checkpoint.
 
