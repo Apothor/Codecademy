@@ -1,4 +1,4 @@
-Code Challenge #17: Egg Dropper
+# Code Challenge #17: Egg Dropper
 
 ## Basic Difficulty
 
