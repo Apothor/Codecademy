@@ -1,6 +1,6 @@
 # Set up PostgreSQL Locally
 
-In this off-platform project, you will work on creating a database using PostgreSQL on your own computer. Before you get started, make sure you have gone through the necessary setup steps found in our article about [setting up PostgreSQL locally](https://www.codecademy.com/paths/design-databases-with-postgresql/tracks/what-is-a-database/modules/using-postgresql-on-your-own-computer/articles/installing-and-using-postgresql-locally). You will need to set up a PostgreSQL server as well as a client to connect to your server. As described in the article linked above, we recommend using Postbird for your client.
+In this [off-platform project](https://www.codecademy.com/paths/design-databases-with-postgresql/tracks/how-do-i-make-and-populate-my-own-database/modules/designing-a-database-schema-off-platform-project/informationals/off-platform-project-designing-a-database-from-scratch), you will work on creating a database using PostgreSQL on your own computer. Before you get started, make sure you have gone through the necessary setup steps found in our article about [setting up PostgreSQL locally](https://www.codecademy.com/paths/design-databases-with-postgresql/tracks/what-is-a-database/modules/using-postgresql-on-your-own-computer/articles/installing-and-using-postgresql-locally). You will need to set up a PostgreSQL server as well as a client to connect to your server. As described in the article linked above, we recommend using Postbird for your client.
 
 # Download the Data and Instructions
 
