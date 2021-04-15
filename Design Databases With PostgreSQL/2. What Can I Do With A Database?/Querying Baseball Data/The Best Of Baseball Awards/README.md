@@ -88,12 +88,15 @@ Now that we’ve got a sense of what the data looks like, let’s use our queryi
 This award goes to the team with the highest average weight of its batters on a given year.
 
 * Hint
+
 We need to join three tables together — The `poeple` table contains the weights of each player. We can link those players to the year and team they were batting for in the `batting` table. Finally, the `batting` table has a `team_id` field, but we want the actual team name. We can link the `batting` table to the `teams` table to find the name of the team. We'll need to use the `GROUP BY`, `AVG`, and `DESC` , and to find the average weight of the players on these teams.
 
 #### Shortest Sluggers
 
 This award goes to the team with the smallest average height of its batters on a given year. This query should look very similar to the one you wrote to find the heaviest teams.
+
 * Hint
+
 Once again we need to join the `people`, `batting`, and `teams` tables. This time, use your aggregate functions on the `height` column. Also make sure to use `ASC` this time to get the shortest teams first. 
 
 #### Biggest Spenders
@@ -101,18 +104,21 @@ Once again we need to join the `people`, `batting`, and `teams` tables. This tim
 This award goes to the team with the largest total salary of all players in a given year.
 
 * Hint
+
 You'll mostly be using the `salaries` table for this one. Use `SUM()`, `GROUP BY` and `ORDER BY` to sum every player's salary for a given team on a given year. You'll want to group by both `teamid` and `yearid`. If you want to get the real name of the team rather than just the `teamid`, you'll need to `JOIN` with the `teams` table.
 
 #### Most Bang For Their Buck In 2010
 This award goes to the team that had the smallest “cost per win” in 2010. Cost per win is determined by the total salary of the team divided by the number of wins in a given year. Note that we decided to look at just teams in 2010 because when we found this award looking across all years, we found that due to inflation, teams from the 1900s spent much less money per win. We thought that looking at all teams in just the year 2010 gave a more interesting statistic.
 
 * Hint
+
 This should look very similar to your last query. You'll still need to join the `salaries` and `teams` table. This time you want to divide the sum of the players salaries by the `w` column from the `teams` table. Because of this, you'll also need to add `w` to the `GROUP BY` clause. Finally, we added the `round()` function to the number we're reporting to make our output a little more readable. 
 
 #### Priciest Starter
 This award goes to the pitcher who, in a given year, cost the most money per game in which they were the starting pitcher. Note that many pitchers only started a single game, so to be eligible for this award, you had to start at least 10 games.
 
 * Hint
+
 You'll need to connect the `salaries` table and the `pitching` table. The column you're interested in the `pitching` table is `gs` (for "games started"). When you join these two tables, you'll want to make sure the `playerid`, `yearid`, and `teamid` all match — it is possible for one player to play on multiple teams in a given year. Make sure to use a `where` clause to ensure the pitcher has started in at least 10 games. Finally, you may want to join with the `people` table to get the player's full name. 
 
 ### Part 4 — Create Your Own Award
