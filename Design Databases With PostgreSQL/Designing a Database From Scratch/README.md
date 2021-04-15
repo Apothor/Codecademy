@@ -103,11 +103,11 @@ Now that you’ve learned about the database that you’ll be creating, it’s t
 
 There are a number of steps that go into this process. We’ll try to highlight some of the most important ones below.
 
-    It’s probably best to create a new database for this project. That way, you won’t have any tables from other projects in your database. If you are using Postbird, you can create a new database in the “Select Database” dropdown menu in the top left corner of the UI.
-    Create the tables that you’ve drawn up in your Entity-Relationship Diagram. As you create these tables, there are a few things to watch out for.
-        Make sure you’ve given each column an appropriate data type.
-        Define primary keys so each row in your tables is uniquely identifiable.
-        Define foreign keys to create relationships between tables. The ordering here might be a little tricky. If you’re creating a table with a foreign key referencing a column from a different table, make sure that the other table has already been created!
+* It’s probably best to create a new database for this project. That way, you won’t have any tables from other projects in your database. If you are using Postbird, you can create a new database in the “Select Database” dropdown menu in the top left corner of the UI.
+* Create the tables that you’ve drawn up in your Entity-Relationship Diagram. As you create these tables, there are a few things to watch out for.
+   * Make sure you’ve given each column an appropriate data type.
+   * Define primary keys so each row in your tables is uniquely identifiable.
+   * Define foreign keys to create relationships between tables. The ordering here might be a little tricky. If you’re creating a table with a foreign key referencing a column from a different table, make sure that the other table has already been created!
 
 Once again, you can go to the bottom of this document to see some of our thoughts on this process when we did this exercise.
 
@@ -139,20 +139,20 @@ We asked similar questions about the relationship between books, publishers, and
 
 Ultimately all of this research led us to the Entity-Relationship diagram included in the downloaded files.
 
-Note that in reality, we would probably have many more fields in all of these tables. After all, having a publisher table with only a name field isn’t very helpful. For the purposes of this exercise, we focused on setting up the skeleton of the relationships between all of these entities. We could have spent much more time adding more details to all of these tables!
+Note that in reality, we would probably have many more fields in all of these tables. After all, having a `publisher` table with only a `name` field isn’t very helpful. For the purposes of this exercise, we focused on setting up the skeleton of the relationships between all of these entities. We could have spent much more time adding more details to all of these tables!
 
 ### Turn Your Diagram Into A Database Schema
 
-The code we used to turn our diagram into a real Postgres database can be found in the publishing_database.sql file in the downloads. One thing to note: as we were creating the age_range column for the imprint table, we thought that it made more sense to split it into minimum_age and maximum_age columns of type int. Making these columns ints will allow us to filter the table for something like imprints that publish books for kids under age 20, whereas that would be more difficult and would run slower with a text field representing the age range.
+The code we used to turn our diagram into a real Postgres database can be found in the `publishing_database.sql` file in the downloads. One thing to note: as we were creating the `age_range` column for the `imprint` table, we thought that it made more sense to split it into `minimum_age` and `maximum_age` columns of type `int`. Making these columns `ints` will allow us to filter the table for something like imprints that publish books for kids under age 20, whereas that would be more difficult and would run slower with a `text` field representing the age range.
 
 ### Add Data To Your Tables
 
-Check out publishing_database.sql to see the INSERT statements we wrote to add data to our tables. We made sure to insert rows that would test the one-to-many and many-to-many relationships that we had previously established. For example, we wanted to make sure that multiple agents could belong to the same agency.
+Check out `publishing_database.sql` to see the INSERT statements we wrote to add data to our tables. We made sure to insert rows that would test the one-to-many and many-to-many relationships that we had previously established. For example, we wanted to make sure that multiple agents could belong to the same agency.
 
 ### Edit Your Schema As Necessary
 
-As we were adding data to our tables, we realized a few things. First, we realized that there was no way for us to connect a book to an editor. We could connect a book to a publisher and an editor to a publisher, but because multiple editors could work for the same publisher, there was no way to know which editor was editing a book. As a result, we added the editor_name column in the book table.
+As we were adding data to our tables, we realized a few things. First, we realized that there was no way for us to connect a `book` to an `editor`. We could connect a `book` to a `publisher` and an `editor` to a `publisher`, but because multiple editors could work for the same publisher, there was no way to know which editor was editing a book. As a result, we added the `editor_name` column in the `book` table.
 
-Once we added this column, we realized that the publisher_name field in the book table was redundant. Because each editor could only work at one publisher (technically, one imprint that belongs to a publisher), we could find the publisher of a book through the editor. As a result, we removed the publisher_name column from the book table.
+Once we added this column, we realized that the `publisher_name` field in the `book` table was redundant. Because each `editor` could only work at one `publisher` (technically, one `imprint` that belongs to a `publisher`), we could find the `publisher` of a `book` through the `editor`. As a result, we removed the `publisher_name` column from the `book` table.
 
-It’s debatable whether this is a good idea or not! It might be annoying to have to look up the publisher of a book through its editor every time we’re curious about the publisher. Or an editor could switch what publisher they’re working for. Ultimately, decisions like that will be dependent upon who ends up using the database. At this point, it might be a good idea to go back to the person that you interviewed and see if there are any obvious flaws in your design! You can see the PostgreSQL code we used to make these edits in publishing_database.sql.
+It’s debatable whether this is a good idea or not! It might be annoying to have to look up the publisher of a book through its editor every time we’re curious about the publisher. Or an editor could switch what publisher they’re working for. Ultimately, decisions like that will be dependent upon who ends up using the database. At this point, it might be a good idea to go back to the person that you interviewed and see if there are any obvious flaws in your design! You can see the PostgreSQL code we used to make these edits in `publishing_database.sql`.
