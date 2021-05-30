@@ -24,4 +24,4 @@ A tree is considered balanced when the difference between the min depth and max 
 2. Adapt your function to check if the tree is balanced so that it runs in O(n) time.
 3. If your BST is balanced then the insert function would have only taken O(n log n) time, see if you can figure out why.
 
-Find out more about the challenges[https://discuss.codecademy.com/t/essential-information-on-code-challenges/83909#hard] 
+Find out more about the [challenges](https://discuss.codecademy.com/t/essential-information-on-code-challenges/83909#hard)
