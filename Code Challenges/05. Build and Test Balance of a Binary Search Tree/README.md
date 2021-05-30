@@ -1,23 +1,27 @@
-# Codecademy Challenge #00: The Classic FizzBuzz Challenge
+# Build and Test Balance of a Binary Search Tree
 
-One developer interview question is asked or referred to so often for so long, it is almost a cliché: the FizzBuzz challenge. Though this challenge will appear very simplistic to those with some coding experience, it is designed to weed out people who cannot creatively use their coding knowledge to solve simple problems. See our thread on the rationale behind coding challenges for more info.
+## Easy difficulty
 
-## The History of the FizzBuzz Challenge
+You are given a list of numbers stored in a list, A. Your challenge is to build a [Binary Search Tree] (Binary search tree - Wikipedia 288) to store these numbers. You will need to:
 
-As the inventor of this challenge, Imran Ghory 52, states:
+1. Represent each node of the tree (including its data, left child and right child).
+2. Print the tree out in an understandable form.
+3. Make a function to insert a list of numbers (A) into the tree.
 
-> After a fair bit of trial and error I’ve come to discover that people who struggle to code don’t just struggle on big problems, or even smallish problems (i.e. write a implementation of a linked list). They struggle with tiny problems.
+Check if you can insert all the numbers in A into your tree, and that it prints out as expected.
+Use the language of your choice to solve this challenge, but only submissions in languages taught by Codecademy are eligible to “win”.
 
-> So I set out to develop questions that can identify this kind of developer and came up with a class of questions I call “FizzBuzz Questions” named after a game children often play (or are made to play) in schools in the UK.
+## Intermediate difficulty
 
-This challenge is based on a children’s game used to teach division. Children sit in a circle. The player going first will say one, followed by the player next to them (going clockwise or counter-clockwise) saying two, and so on, adding one each time. However, any number divisible by three is replaced by the word Fizz, any divisible by five by the word Buzz, and numbers divisible by both three and five become FizzBuzz. A player who hesitates or makes a mistake is eliminated from the game.
+1. Write a function to check if the Binary Search Tree that you’ve created is balanced.
+A tree is considered balanced when the difference between the min depth and max depth does not exceed 1, i.e. if the list had n elements in it the height of the tree would be log(n) (base 2).
 
-## The Challenge
 
-Turned into a code challenge, this becomes the FizzBuzz Challenge:
 
-> "Write a program that prints the numbers from 1 to 100. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+## Hard Difficulty
 
-Try your hand at the FizzBuzz challenge: submit your answer below! It’s not a true test of your abilities if you look at other people’s answers below or Google for examples - try to solve this yourself as if you were in a job interview situation.
+1. Adapt your function to insert a list of n numbers so that it runs in O(n log n) time. Bear in mind that this is just the average case for a random sequence of numbers. If the list A was sorted it would take O(n^2).
+2. Adapt your function to check if the tree is balanced so that it runs in O(n) time.
+3. If your BST is balanced then the insert function would have only taken O(n log n) time, see if you can figure out why.
 
-Remember to format your code 619!
+Find out more about the challenges[https://discuss.codecademy.com/t/essential-information-on-code-challenges/83909#hard] 
