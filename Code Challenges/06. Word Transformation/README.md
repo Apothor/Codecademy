@@ -1,6 +1,6 @@
 # Word Transformation
 
-This week’s challenge was reportedly asked in interviews at Snap, Inc. (parent company of Snapchat):
+This week’s challenge was reportedly asked in interviews at Snap, Inc. (parent company of Snapchat)
 
 ## Basic Difficulty
 
