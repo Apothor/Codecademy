@@ -28,5 +28,3 @@ Your function should be called `bestDays` and take `one array of integers` as an
 ## Hard Difficulty
 
 Solve the basic and intermediate versions of this challenge as efficiently as possible.
-
-Find out more about hard challenges and Big O
