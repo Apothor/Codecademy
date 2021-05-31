@@ -2,7 +2,7 @@
 
 ## Basic Difficulty
 
-> Create a program makeNumberBasic(z) which, when given an input of a number (z), returns the number of all possible permutations of digits (1 through 9 inclusive) that when added will equal z.
+Create a program makeNumberBasic(z) which, when given an input of a number (z), returns the number of all possible permutations of digits (1 through 9 inclusive) that when added will equal z.
 
 More details:
 
@@ -15,7 +15,7 @@ More details:
 
 ## Intermediate difficulty
 
-> Write makeNumber(z) so that it only returns the number of combinations of unique digits from 1 to 9.
+Write makeNumber(z) so that it only returns the number of combinations of unique digits from 1 to 9.
 
 * For example, if z is 3, your program will find the unique combinations 3 and 1+2, and thus return 2.
 * To clarify unique digits: repeat use of a digit is no longer acceptable. 1+5, 1+2+3, 2+4, and 3+3 all equal 6, but makeNumber(z) would not consider 3+3 a valid combination as it uses the digit 3 more than once. 
