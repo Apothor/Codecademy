@@ -1,4 +1,4 @@
-# Codecademy Challenge #00: The Classic FizzBuzz Challenge
+The Classic FizzBuzz Challenge
 
 One developer interview question is asked or referred to so often for so long, it is almost a cliché: the FizzBuzz challenge. Though this challenge will appear very simplistic to those with some coding experience, it is designed to weed out people who cannot creatively use their coding knowledge to solve simple problems. See our thread on the rationale behind coding challenges for more info.
 
