@@ -8,12 +8,12 @@ Given two words (`beginWord` and `endWord`), and a dictionary’s word list, fin
 
 You may assume:
 
-* Both `beginWord` and `endWord` are strings of equal length (that is, equal numbers of characters).
-* beginWord and endWord are words with all lower-case characters (in ASCII 29 hexadecimal, characters range from 61 to 7A)
+* Both `beginWord` and `endWord` are [strings](https://en.wikipedia.org/wiki/String_(computer_science)) of equal length (that is, equal numbers of [characters](https://en.wikipedia.org/wiki/Character_(computing)).
+* beginWord and endWord are words with all lower-case characters (in [ASCII](https://en.wikipedia.org/wiki/ASCII) hexadecimal, characters range from 61 to 7A)
 * Letters cannot be inserted or deleted, only substituted.
 * Only one letter can be changed at a time.
 * Each intermediate word must exist in the word list.
-* Your algorithm should be able to work with any dictionary, but for this challenge just use the one posted below. Either copy it word for word into an array, or save it into a text file and load it using File I/O.
+* Your algorithm should be able to work with any dictionary, but for this challenge just use the one posted [below](https://discuss.codecademy.com/t/challenge-word-transformation/84306/5?u=alexcraig). Either copy it word for word into an array, or save it into a text file and load it using File I/O.
 
 ## Intermediate difficulty
 
