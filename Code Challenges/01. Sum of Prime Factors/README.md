@@ -1,6 +1,6 @@
 # Sum of Prime Factors
 
-## Intermediate Difficulty
+## Basic Difficulty
 > Write a function that finds the sum of all [prime factors](https://discuss.codecademy.com/t/code-challenges-in-interviews/82161) of a given number, n.
 Try to write your function without using [trial division](https://mathworld.wolfram.com/TrialDivision.html)!
 
