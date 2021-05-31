@@ -23,7 +23,7 @@ Given the daily values of a stock over a number of days n, write a program that 
 * You can only make one transaction per day, and new transactions can take place only after the previous transaction is complete (e.g. buy :arrow_forward: sell :arrow_forward: buy :arrow_forward: sell). For example, if you sold on day 3 you could not also buy on day 3, you would have to wait until day 4 or later to purchase again.
 * You may use the following as a test array, from day 0 through day 7: `{90, 170, 250, 300, 30, 525, 685, 90}`. In this case, purchasing on day zero and selling on day three, then buying again on day four before selling on day six would yield the most profit.
 
-Your function should be called `bestDays` and take `one array of integers` as an input. `bestDays` should output a 2D array of the form [[buyDay1, sellDay1],[buyDay2, sellDay2], ..... , [buyDayN, sellDayN]], where `buyDayX` and `sellDayX` are integers corresponding to the days in the input array.
+Your function should be called `bestDays` and take `one array of integers` as an input. `bestDays` should output a 2D array of the form `[[buyDay1, sellDay1],[buyDay2, sellDay2], ..... , [buyDayN, sellDayN]]`, where `buyDayX` and `sellDayX` are integers corresponding to the days in the input array.
 
 ## Hard Difficulty
 
