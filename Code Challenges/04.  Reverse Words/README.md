@@ -11,11 +11,9 @@ If you find this challenge easy, that’s actually [not unusual](https://discuss
 
 ## Intermediate difficulty
 
-> The string in question now has punctuation, for example `“Hello world!”` and `“With you, be May the Fourth”` Write a function to reverse the order of words, but keep the punctuation in place. For example, turn `"Hello world!"` into `“world Hello!”` and `“With you, be May the Fourth.”` to <“Fourth the, May be you With.”>
+> The string in question now has punctuation, for example `“Hello world!”` and `“With you, be May the Fourth”` Write a function to reverse the order of words, but keep the punctuation in place. For example, turn `"Hello world!"` into `“world Hello!”` and `“With you, be May the Fourth.”` to `“Fourth the, May be you With.”`
 
 In the case of multiple consecutive punctuation marks or multiple consecutive whitespace characters, deal with them as you see fit.
-
-This week, our easy level challenge is a little easier than normal, so only submissions at intermediate level and above will be eligible to “win” this challenge.
 
 ## Hard Difficulty
 
