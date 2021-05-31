@@ -15,7 +15,7 @@ This challenge is based on a children’s game used to teach division. Children 
 
 Turned into a code challenge, this becomes the FizzBuzz Challenge:
 
-> "Write a program that prints the numbers from 1 to 100. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+> "Write a program that prints the numbers from 1 to 100. But for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
 Try your hand at the FizzBuzz challenge: submit your answer below! It’s not a true test of your abilities if you look at other people’s answers below or Google for examples - try to solve this yourself as if you were in a job interview situation.
 
