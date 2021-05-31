@@ -2,7 +2,7 @@
 
 ## Basic Difficulty
 
-Create a program `makeNumberBasic(z)` which, when given an input of a number `(z)`, returns the number of all possible permutations of digits (1 through 9 inclusive) that when added will equal z.
+Create a program `makeNumberBasic(z)` which, when given an input of a number (z), returns the number of all possible permutations of digits (1 through 9 inclusive) that when added will equal z.
 
 More details:
 * For example, if z is 3, your program will find that four permutations of digits add up to that value (3, 2+1, 1+1+1, and 1+2), and thus return 4.
