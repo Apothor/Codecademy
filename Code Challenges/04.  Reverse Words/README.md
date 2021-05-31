@@ -4,7 +4,7 @@ For this week’s challenge, inspired by a question reported to have been asked 
 
 ## Basic Difficulty
 
-> Write a function that will take a given [string](https://en.wikipedia.org/wiki/String_(computer_science)) and reverse the order of the words. `<“Hello world”>` becomes `<“world Hello”>` and `<“May the Fourth be with you” becomes “you with be Fourth the May”>`
+> Write a function that will take a given [string](https://en.wikipedia.org/wiki/String_(computer_science)) and reverse the order of the words. `“Hello world”` becomes `<“world Hello”>` and `<“May the Fourth be with you” becomes “you with be Fourth the May”>`
 
 You may assume that the string is a sentence that contains only letters and spaces, with all words separated by one space.
 If you find this challenge easy, that’s actually [not unusual](https://discuss.codecademy.com/t/code-challenges-in-interviews/82161) in interview situations, but interviewers often ask you to not only thoroughly explain your process but to up your game in an extension to the initial challenge, so you should definitely try for extra credit (see below)!
