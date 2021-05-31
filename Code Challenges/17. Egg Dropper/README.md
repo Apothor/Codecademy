@@ -1,9 +1,11 @@
-Code Challenge #17: Egg Dropper
+# Egg Dropper
+
+This week’s challenge was reported to have been asked in interviews at Microsoft.
 
 ## Basic Difficulty
 
-> Suppose that you had 100 eggs in a 100-floor skyscraper, and you wanted to conduct an experiment to find out the highest floor (criticalFloor) from which you could drop an egg without breaking it… but you’re also really hungry so you don’t want to waste any eggs.
-> Write a function, minEggDropper100, that will determine the minimum number of egg drops (minDrops100) you’d need to find the criticalFloor.
+Suppose that you had 100 eggs in a 100-floor skyscraper, and you wanted to conduct an experiment to find out the highest floor (`criticalFloor`) from which you could drop an egg without breaking it… but you’re also really hungry so you don’t want to waste any eggs.
+rite a function, `minEggDropper100`, that will determine the minimum number of egg drops (`minDrops100`) you’d need to find the `criticalFloor`.
 
 * **Function Name**: `minEggDropper100`
 * **Output**: `minDrops100` – an integer representing the minimum number of drops needed to find the criticalFloor
