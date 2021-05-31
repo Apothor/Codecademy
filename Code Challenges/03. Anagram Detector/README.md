@@ -2,6 +2,7 @@
 
 For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at Microsoft:
 > Write a function in your favorite programming language that will accept any two [strings](https://en.wikipedia.org/wiki/String_(computer_science)) as parameters and return “1” if they are [anagrams](https://en.wikipedia.org/wiki/Anagram) and “0” if they are not.
+
 For simplicity’s sake, focus only on strings composed from uppercase letters (in hex ASCII - from 41 (A) to 5A (Z)) and space characters.
 
 ## Intermediate Difficulty
