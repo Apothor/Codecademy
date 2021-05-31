@@ -6,7 +6,7 @@
 
 **Extra Credit**
 
-##Intermediate Difficulty
+## Intermediate Difficulty
 
 If you’d like to go a step further:
 > Don’t use any additional data structures.
