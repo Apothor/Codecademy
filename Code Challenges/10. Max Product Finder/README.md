@@ -1,6 +1,6 @@
 # Max Product Finder
 
-This week’s challenge was reported to have been asked in interviews at **Google**:
+This week’s challenge was reported to have been asked in interviews at **Google**.
 
 ## Basic Difficulty
 
