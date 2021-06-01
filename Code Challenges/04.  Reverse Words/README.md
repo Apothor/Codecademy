@@ -2,7 +2,7 @@
 
 For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at Microsoft (and also inspired by Yoda in honor of Star Wars Day!).
 
-## Basic Difficulty
+## Basic difficulty
 
 Write a function that will take a given [string](https://en.wikipedia.org/wiki/String_(computer_science)) and reverse the order of the words. `“Hello world”` becomes `“world Hello”` and `“May the Fourth be with you”` becomes `“you with be Fourth the May”`
 
@@ -15,7 +15,7 @@ The string in question now has punctuation, for example `“Hello world!”` and
 
 In the case of multiple consecutive punctuation marks or multiple consecutive whitespace characters, deal with them as you see fit.
 
-## Hard Difficulty
+## Hard difficulty
 
 If you’d like to go even further:
 
