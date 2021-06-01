@@ -22,3 +22,7 @@ Given an array of integers, write a function, `maxProductFinderK`, that can be o
 * **Output**: an `integer` – the maximum product found from any k integers in the array
 * **Example**: `maxProductFinderK([-8, 6, -7, 3, 2, 1, -9], 2) => 72`
 * You may presume that the length of the array of integers is greater or equal to k
+
+## Hard Difficulty
+
+Write `maxProductFinder` and `maxProductFinderK` as efficiently as possible.
