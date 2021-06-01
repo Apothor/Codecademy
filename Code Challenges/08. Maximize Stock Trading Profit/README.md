@@ -27,4 +27,4 @@ Your function should be called `bestDays` and take `one array of integers` as an
 
 ## Hard difficulty
 
-Solve the basic and intermediate versions of this challenge as efficiently as possible.
+Solve the basic and intermediate versions of this challenge as *efficiently as possible*.
