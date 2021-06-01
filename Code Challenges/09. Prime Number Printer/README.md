@@ -2,7 +2,7 @@
 
 This week’s challenge was reported to have been asked in interviews at **Facebook**
 
-## Basic Difficulty
+## Basic difficulty
 
 Write a function, `primeNumberDetector`, that tests if a number, n is a prime number.
 
@@ -21,6 +21,6 @@ Write a function, `primeNumberPrinter`, that will print out all prime numbers in
 * **Output**: An `integer array` of the prime numbers contained in the string
 * **Example:** `primeNumberPrinter("abc2134kd31")`, will output an array `[2,13,3,3,31]` (in the order they appear in the string).
 
-## Hard Difficulty
+## Hard difficulty
 
 Write `primeNumberDetector` and `primeNumberPrinter` as *efficiently as possible*.
