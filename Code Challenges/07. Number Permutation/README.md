@@ -2,7 +2,7 @@
 
 This week’s challenge was reportedly asked in interviews at **Facebook**.
 
-## Basic Difficulty
+## Basic difficulty
 
 Create a program `makeNumberBasic(z)` which, when given an input of a number (z), returns the number of all possible permutations of digits (1 through 9 inclusive) that when added will equal z.
 
@@ -22,7 +22,7 @@ Write `makeNumber(z)` so that it only returns the number of *combinations of uni
 * To clarify unique digits: repeat use of a digit is no longer acceptable. 1+5, 1+2+3, 2+4, and 3+3 all equal 6, but `makeNumber(z)` would not consider 3+3 a valid combination as it uses the digit 3 more than once. 
 * `makeNumber(z)` is now looking for [combinations](https://en.wikipedia.org/wiki/Combination) not [permutations](https://en.wikipedia.org/wiki/Permutation): 1+5 and 5+1 would now only be accepted as one possible way to add digits 1 through 9 to 6, not two.
 
-## Hard Difficulty
+## Hard difficulty
 
 Write versions of `makeNumberBasic(z)` **and** of `makeNumber(z)` (the normal and intermediate difficulty challenges) as *efficiently as possible*.
 
