@@ -19,4 +19,4 @@ Turned into a code challenge, this becomes the FizzBuzz Challenge:
 
 Try your hand at the FizzBuzz challenge: submit your answer below! It’s not a true test of your abilities if you look at other people’s answers below or Google for examples - try to solve this yourself as if you were in a job interview situation.
 
-Remember to [](https://discuss.codecademy.com/t/how-to-format-code-in-posts/51139)format your code!
+Remember to [format your code!](https://discuss.codecademy.com/t/how-to-format-code-in-posts/51139)
