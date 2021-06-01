@@ -1,6 +1,6 @@
 # Anagram Detector
 
-For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at Microsoft:
+For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at **Microsoft**.
 
 ## Basic Difficulty
 
