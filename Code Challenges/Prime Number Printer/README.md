@@ -1,6 +1,6 @@
 # Prime Number Printer
 
-This week’s challenge was reported to have been asked in interviews at **Facebook**:
+This week’s challenge was reported to have been asked in interviews at **Facebook**
 
 ## Basic Difficulty
 
