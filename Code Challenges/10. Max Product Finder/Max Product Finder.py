@@ -71,8 +71,18 @@ print(maxProductFinderK([-8, 6, -7, 3, 2, 1, -9], 2))
 # Hard Difficulty
 # maxProductFinderK(arr, k) finds and returns the largest product that can be obtained from a given number of integers in an array
 def maxProductFinderK(arr, k):
-    negative_arr = sorted([x for x in arr if x < 0])
-    positive_arr = sorted([x for x in arr if x > 0])[::-1]
+    negative_arr = []
+    positive_arr = []
+    index = 0
+    while arr:
+        integer = arr.pop(0)
+        if integer < 0:
+            negative_arr.append(integer)
+        if integer > 0:
+            positive_arr.append(integer)
+    negative_arr.sort()
+    positive_arr.sort()
+    positive_arr = positive_arr[::-1]
     max_product = 1
     while k >= 2:
         negative_product = negative_arr[0] * negative_arr[1]
