@@ -8,7 +8,7 @@ Try to write your function without using [trial division](https://mathworld.wolf
 ## Intermediate Difficulty
 
 If you’d like to go a step further:
-Write a function that finds the sum of each unique prime factor of a given number, n. For example, 3 is the only prime factor of 9.
+Write a function that finds the sum of each *unique* prime factor of a given number, n. For example, 3 is the only prime factor of 9.
 
 ## Advanced Difficulty
 
