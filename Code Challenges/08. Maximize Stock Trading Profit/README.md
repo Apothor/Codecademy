@@ -2,7 +2,7 @@
 
 This week’s challenge was reportedly asked in interviews at **Google**:
 
-## Basic difficulty
+## **Basic difficulty**
 
 Given the daily values of a stock, write a program that will find how you can gain the most with a single buy-sell trade.
 
