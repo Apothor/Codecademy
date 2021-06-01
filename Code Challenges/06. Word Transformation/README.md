@@ -1,8 +1,8 @@
 # Word Transformation
 
-This week’s challenge was reportedly asked in interviews at Snap, Inc. (parent company of Snapchat)
+This week’s challenge was reportedly asked in interviews at **Snap, Inc.** (parent company of Snapchat).
 
-## Basic Difficulty
+## Basic difficulty
 
 Given two words (`beginWord` and `endWord`), and a dictionary’s word list, find the length of shortest transformation sequence from `beginWord` to `endWord`.
 
@@ -22,7 +22,7 @@ You may assume:
 You may assume:
 Your function can now delete and insert letters.
 
-## Hard Difficulty
+## Hard difficulty
 
 Make your submission as efficient as possible.
 
