@@ -2,12 +2,12 @@
 
 For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at **Microsoft**.
 
-## Basic Difficulty
+## Basic difficulty
 
 Write a function in your favorite programming language that will accept any two [strings](https://en.wikipedia.org/wiki/String_(computer_science)) as parameters and return “1” if they are [anagrams](https://en.wikipedia.org/wiki/Anagram) and “0” if they are not.
 For simplicity’s sake, focus only on strings composed from uppercase letters (in hex ASCII - from 41 (A) to 5A (Z)) and space characters.
 
-## Intermediate Difficulty
+## Intermediate difficulty
 
 If you’d like to go a step further:
 Make sure that your answer has no more than O(n + m) [time complexity](https://en.wikipedia.org/wiki/Time_complexity), where n is the length of the first string and m of the second.
