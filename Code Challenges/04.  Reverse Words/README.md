@@ -1,6 +1,6 @@
 # Reverse Words
 
-For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at Microsoft (and also inspired by Yoda in honor of Star Wars Day!):
+For this week’s challenge, inspired by a question reported to have been asked in developer job interviews at Microsoft (and also inspired by Yoda in honor of Star Wars Day!).
 
 ## Basic Difficulty
 
