@@ -22,5 +22,3 @@ A tree is considered balanced when the difference between the min depth and max 
 1. Adapt your function to insert a list of n numbers so that it runs in O(n log n) time. Bear in mind that this is just the average case for a random sequence of numbers. If the list A was sorted it would take O(n^2).
 2. Adapt your function to check if the tree is balanced so that it runs in O(n) time.
 3. If your BST is balanced then the insert function would have only taken O(n log n) time, see if you can figure out why.
-
-Find out more about the [challenges](https://discuss.codecademy.com/t/essential-information-on-code-challenges/83909#hard)
