@@ -17,7 +17,7 @@ Check if you can insert all the numbers in A into your tree, and that it prints 
 Write a function to check if the Binary Search Tree that you’ve created is balanced.
 A tree is considered balanced when the difference between the min depth and max depth does not exceed 1, i.e. if the list had n elements in it the height of the tree would be log(n) (base 2).
 
-## Hard Difficulty
+## Hard difficulty
 
 1. Adapt your function to insert a list of n numbers so that it runs in O(n log n) time. Bear in mind that this is just the average case for a random sequence of numbers. If the list A was sorted it would take O(n^2).
 2. Adapt your function to check if the tree is balanced so that it runs in O(n) time.
