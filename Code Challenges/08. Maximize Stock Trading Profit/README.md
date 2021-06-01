@@ -25,6 +25,6 @@ Given the daily values of a stock over a number of days n, write a program that 
 
 Your function should be called `bestDays` and take `one array of integers` as an input. `bestDays` should output a 2D array of the form `[[buyDay1, sellDay1],[buyDay2, sellDay2], ..... , [buyDayN, sellDayN]]`, where `buyDayX` and `sellDayX` are integers corresponding to the days in the input array.
 
-## Hard Difficulty
+## Hard difficulty
 
 Solve the basic and intermediate versions of this challenge as efficiently as possible.
