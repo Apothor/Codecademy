@@ -24,4 +24,4 @@ As above, but `isPermPalindrome` should now be able to account for punctuation, 
 
 ## Hard Difficulty
 
-Write `isPermPalindrome` as efficiently as possible.
+Write `isPermPalindrome` as *efficiently as possible*.
