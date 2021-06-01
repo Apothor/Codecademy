@@ -2,7 +2,7 @@
 
 This week’s challenge was reported to have been asked in interviews at **Facebook**.
 
-## Basic Difficulty
+## Basic difficulty
 
 Write a function, `isPermPalindrome`, that will test if a given string is a permutation of a palindrome.
 
@@ -22,6 +22,6 @@ As above, but `isPermPalindrome` should now be able to account for punctuation, 
 * Your input string may now include spaces, numbers, punctuation, and capitalization, but in assessing whether the string is a palindrome or not, spaces, punctuation, and capitalization does not matter. For example, akyKa is a permutation of Kayak, but we don’t care that there is one upper case K and one lower case k in Kayak – this is still a palindrome.
 * **Example**: `isPermPalindrome("Science Bros.") => false`
 
-## Hard Difficulty
+## Hard difficulty
 
 Write `isPermPalindrome` as *efficiently as possible*.
