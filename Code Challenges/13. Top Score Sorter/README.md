@@ -4,7 +4,7 @@ This week’s challenge was reported to have been asked in interviews at **Amazo
 
 ## Basic difficulty
 
-You’ve spent decades setting high scores on Donkey Kong but now, a challenger approaches. Write a function, scoreSettler, that will definitively show who is the King of Kong. scoreSettler will take a list of unsorted scores plus the highest possible score and return a sorted list of all of the scores, in descending order from high score to low score.
+You’ve spent decades setting high scores on Donkey Kong but now, a challenger approaches. Write a function, `scoreSettler`, that will definitively show who is the King of Kong. `scoreSettler` will take a list of unsorted scores plus the highest possible score and return a sorted list of all of the scores, in descending order from high score to low score.
 
 * **Function Name**: `scoreSettler`
 * *** **Input**: `list of integers` representing scores and a single integer for the highest possible score
