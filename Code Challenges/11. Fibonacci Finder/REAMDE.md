@@ -23,7 +23,7 @@ Write a function, `fibonacciFinderN`, that will find the nth number in the Fibon
 * **Example**: `fibonacciFinderN(300) => 137347080577163115432025771710279131845700275212767467264610201`
 * Please use this example – the 300th Fibonacci Number – with your submission
 
-Hard difficulty
+## Hard difficulty
 
 Write `fibonacciFinderN` as *efficiently as possible*.
 
