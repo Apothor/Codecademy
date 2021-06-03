@@ -19,11 +19,11 @@ You’re training for a marathon and have a list of times in which you’ve comp
 
 You’re not satisfied with just looking at the historical data for your marathon training – you want your program to reflect your *continued* progress, returning your best, worst, and average run times. Write a function, `timeKeeper` that will help you out. `timeKeeper` will take an input, n a positive integer representing the number of minutes it took you to complete your latest run, and then return an array of the following vital statistics about all of your runs to date:
 
-* the longest time you’ve taken to date (`maxTime`)
-* the shortest (best) time you’ve taken to date (`minTime`)
-* the mean of all of your race times (`meanTime`)
-* the mode of all of your race times (`modeTime`)
-* the [median](https://en.wikipedia.org/wiki/Median) of all of your race times (`medianTime`)
+   * the longest time you’ve taken to date (`maxTime`)
+   * the shortest (best) time you’ve taken to date (`minTime`)
+   * the mean of all of your race times (`meanTime`)
+   * the mode of all of your race times (`modeTime`)
+   * the [median](https://en.wikipedia.org/wiki/Median) of all of your race times (`medianTime`)
 
 * **function name**: `timeKeeper`
 * **Input**: a race time n, a natural number in minutes (you can presume that race times are rounded up to the nearest minute so we do not have to deal with seconds). Each time you insert a new time, n, it is added to an array that contains all of your historical race times.
