@@ -25,7 +25,7 @@ You’re not satisfied with just looking at the historical data for your maratho
    * the mode of all of your race times (`modeTime`)
    * the [median](https://en.wikipedia.org/wiki/Median) of all of your race times (`medianTime`)
 
-* **function name**: `timeKeeper`
+* **Function name**: `timeKeeper`
 * **Input**: a race time n, a natural number in minutes (you can presume that race times are rounded up to the nearest minute so we do not have to deal with seconds). Each time you insert a new time, n, it is added to an array that contains all of your historical race times.
 * **Output**: an array, with longest time, shortest time, mean time, mode time and median time (in that order)
 * **Example**: with an existing array of `[500, 450, 400, 400, 375, 350, 325, 300]` for your historical times and your new time of 320 to insert, `timeKeeper(320) => [500, 300, 380, 400, 375]`
