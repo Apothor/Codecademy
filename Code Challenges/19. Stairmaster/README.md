@@ -7,7 +7,7 @@ This week’s challenge was reported to have been asked in interviews at **Faceb
 Write a function, `stairmaster20`, that will compute the number of ways to climb a flight of 20 steps, taking 1, 2, or 3 steps at a time.
 
 * **Function Name**: `stairmaster20`
-* **Inpu**: none
+* **Input**: none
 * **Output**: a positive integer representing the number of ways you can climb the flight of 20 stairs by climbing 1, 2, or 3 steps at a time.
 * **Example**: say this problem were framed around climbing 4 steps – in this case `stairmaster4 => 7`, as there are seven different ways one can climb four stairs using a combination of climbing 1, 2, or 3 steps at a time are `([1,1,1,1] [2,1,1] [1,2,1] [1,1,2] [2,2] [1,3] [3,1])`
 * In this challenge we are looking for a [permutation](https://betterexplained.com/articles/easy-permutations-and-combinations/), not a combination, as the order matters – climbing one step then two steps is different from climbing two steps then one step.
