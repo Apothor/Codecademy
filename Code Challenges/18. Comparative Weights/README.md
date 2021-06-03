@@ -14,7 +14,7 @@ Suppose you were given eight soccer balls (aka footballs :soccer:), all of them 
     * The balance scale did not come with any reference weights – the only weights you have to use on the balance scale are the footballs themselves.
     * The balance scale is very large – you can fit all eight balls on one side of the scale! Thus, you can put multiple footballs on each side when you weigh, if you so choose.
 * What if you were given a ninth football with an identical weight to the eight equally heavy balls you have already? What if `outlierBall` was lighter than all the others rather than heavier? Try to write your code so that it is easily maintainable and can be adapted to modifications in the interviewer’s questioning.
-* Always remember to * explain* your code and the thought processes behind it!
+* Always remember to *explain* your code and the thought processes behind it!
 
 ## Hard difficulty
 
