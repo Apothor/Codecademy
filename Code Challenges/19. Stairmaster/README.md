@@ -1,4 +1,6 @@
-# This week’s challenge was reported to have been asked in interviews at **Facebook**.
+# Stairmaster
+
+This week’s challenge was reported to have been asked in interviews at **Facebook**.
 
 ## Basic difficulty
 
