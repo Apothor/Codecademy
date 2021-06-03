@@ -24,7 +24,7 @@ Write a function, `stairmasterN`, that will compute the number of ways to climb 
 
 ## Hard difficulty
 
-Write a function, ultimateStairmaster, that will compute the number of ways to climb a flight of n steps, taking x,y, …, z steps at a time. Write ultimateStairmaster as efficiently as possible.
+Write a function, `ultimateStairmaster`, that will compute the number of ways to climb a flight of n steps, taking x,y, …, z steps at a time. Write `ultimateStairmaster` *as efficiently as possible*.
 
 * **Function Name**: `ultimateStairmaster`
 * **Input**: n – any positive integer, `[x,y,.....,z]` - an array of integers, not necessarily in order, that has at least one number in but doesn’t have an upper limit.
