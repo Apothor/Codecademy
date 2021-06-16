@@ -9,9 +9,9 @@ Write a function, `flattenArray`, that when given an [2D](https://www.sparknotes
 * **Input**: a 2D array
 * **Output**: a 1D array
 * **Example**: `flattenArray([1,2,3, [4,5], 6, [7,8], 9])` => `[1,2,3,4,5,6,7,8,9]`
-* **Always remember to explain your code and the thought processes behind it!
-* **You can think of a 2D array as a spreadsheet or a chessboard, whereas a 1D array is more like a list or one long chain of data.
-* **What if your interviewer had follow-up questions or extensions to this challenge? Don’t anticipate what exactly those follow-ups or changes may be, but try to write your code so that it is easily read, easily maintained, and can be adapted to potential modifications in the interviewer’s questioning.
+* Always remember to explain your code and the thought processes behind it!
+* You can think of a 2D array as a spreadsheet or a chessboard, whereas a 1D array is more like a list or one long chain of data.
+* What if your interviewer had follow-up questions or extensions to this challenge? Don’t anticipate what exactly those follow-ups or changes may be, but try to write your code so that it is easily read, easily maintained, and can be adapted to potential modifications in the interviewer’s questioning.
 
 ## Intermediate difficulty
 
