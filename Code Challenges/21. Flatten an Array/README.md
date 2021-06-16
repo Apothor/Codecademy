@@ -27,4 +27,5 @@ Improve on the `flattenArray` function by writing `flattenArrayN`, a function th
 ## Hard difficulty
 
 Write `flattenArray` and `flattenArrayN` *as efficiently as possible*.
+
 Don’t forget to explain your submission just as you would do in a job interview setting!
