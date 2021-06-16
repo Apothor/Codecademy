@@ -22,7 +22,7 @@ Write a function, `timesTables`, that prints out multiplication tables (the type
 11 22 33 44 55 66 77 88 99 110 121 132
 12 24 36 48 60 72 84 96 108 120 132 144`
 
-* This challenge may appear to be quite easy, and part of the point of many code challenges asked in interviews is that they *are* easy (see [here](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)! You should be able to solve this in under ten minutes. How elegantly can you write your solution? Plan your strategy for solving this question and walk your “interviewer” through your thought processes (that is, write down an explanation for your code and your thinking behind it). What’s the *best* way to solve this problem? What are some interesting *non-standard* approaches to solving this problem?
+* This challenge may appear to be quite easy, and part of the point of many code challenges asked in interviews is that they *are* easy (see [here](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions))! You should be able to solve this in under ten minutes. How elegantly can you write your solution? Plan your strategy for solving this question and walk your “interviewer” through your thought processes (that is, write down an explanation for your code and your thinking behind it). What’s the *best* way to solve this problem? What are some interesting *non-standard* approaches to solving this problem?
 * What if your interviewer had follow-up questions or extensions to this challenge? Don’t anticipate what exactly those follow-ups or changes may be, but try to write your code so that it is easily read, easily maintained, and can be adapted to potential modifications in the interviewer’s questioning.
 
 ## Intermediate difficulty
