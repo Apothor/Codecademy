@@ -1,6 +1,7 @@
 # Flatten an Array
 
 This week’s challenge was reported to have been asked in interviews at **Facebook** and has also been asked right here at Codecademy!
+
 ## Basic difficulty
 
 Write a function, `flattenArray`, that when given an [2D](https://www.sparknotes.com/cs/arrays/2darrays/summary/) array, flattens it into a [1D](https://www.sparknotes.com/cs/arrays/1darrays/summary/) array
