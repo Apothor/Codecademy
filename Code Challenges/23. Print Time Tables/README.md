@@ -4,7 +4,7 @@ This week’s challenge was reported to have been asked in interviews at **Googl
 
 # Basic difficulty
 
-Write a function, timesTables, that prints out multiplication tables (the type you learned in primary / grade school) up to 12x12.
+Write a function, `timesTables`, that prints out multiplication tables (the type you learned in primary / grade school) up to 12x12.
 
 * **Function Name**: `timesTables`
 * **Output**: Example output:
