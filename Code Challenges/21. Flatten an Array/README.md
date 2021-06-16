@@ -21,10 +21,10 @@ Improve on the `flattenArray` function by writing `flattenArrayN`, a function th
 * **Input**: any array with n levels of depth, where n is an integer ≥1
 * **Output**: a 1D array
 * **Example**: `flattenArrayN([1, 2, [3, [4, 5]], 6])` => `[1, 2, 3, 4, 5, 6]`
-* **For our intermediate challenge, the array can have multiple types: {}, [], "", undefined, null, and integers (1,2,3,…) are all valid types inside the array.
-* **You must explain your submission to be able to win!
+* For our intermediate challenge, the array can have multiple types: {}, [], "", undefined, null, and integers (1,2,3,…) are all valid types inside the array.
+* You must explain your submission to be able to win!
 
 ## Hard difficulty
 
-Write `flattenArray` and `flattenArrayN` as efficiently as possible.
+Write `flattenArray` and `flattenArrayN` *as efficiently as possible*.
 Don’t forget to explain your submission just as you would do in a job interview setting!
